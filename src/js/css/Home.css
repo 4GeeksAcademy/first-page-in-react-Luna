@@ -1,0 +1,9 @@
+:root {
+    --bs-primary: #ff6f61; /* Cambia el color primario */
+    --bs-secondary: #2bc217; /* Cambia el color secundario */
+    --bs-light: #f8f9fa; /* Cambia el color claro */
+    --bs-dark: #343a40; /* Cambia el color oscuro */
+}
+.bg-secondary{
+    background-color: var(--bs-secondary);
+}
