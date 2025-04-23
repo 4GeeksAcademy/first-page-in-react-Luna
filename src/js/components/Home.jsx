@@ -40,29 +40,29 @@ const Home = () => {
 	];
 
 	return (
-		<div>
+		<>
 			<Navbar />
 			<div className="container d-flex flex-column align-items-center">
 				<Header />
 				<div className="row justify-content-center g-4 mx-5">
-					{cardsData.map((card, index, otro) => (
+					{cardsData.map((card, index) => (
 						<div key={index} className="col-lg-3 col-md-6 col-sm-12">
 							<Card
-							img={card.img}
+								img={card.img}
 								imgAlt={card.imgAlt}
 								title={card.title}
 								content={card.content}
 								buttonLink={card.buttonLink}
-								/>
-								
-							
-							
+							/>
+
+
+
 						</div>
 					))}
 				</div>
 			</div>
 			<Footer />
-		</div>
+		</>
 	);
 };
 
