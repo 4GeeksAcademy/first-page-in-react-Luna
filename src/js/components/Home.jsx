@@ -66,5 +66,4 @@ const Home = () => {
 	);
 };
 
-import "../css/Home.css"
 export default Home;
